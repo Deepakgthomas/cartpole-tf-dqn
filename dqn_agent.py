@@ -6,6 +6,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.python.keras import Sequential
 from tensorflow.python.keras.layers import Dense
+from keras.optimizers import Adam
 
 
 # pylint: disable=too-many-instance-attributes
