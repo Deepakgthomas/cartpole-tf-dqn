@@ -66,7 +66,7 @@ class DqnAgent:
         q_net.add(Dense(64, activation='relu', kernel_initializer='he_uniform'))
         q_net.add(Dense(action_space, activation='linear',
                         kernel_initializer='he_uniform'))
-        q_net.compile(optimizer=keras.optimizers.SGD(learning_rate=learning_rate),
+        q_net.compile(optimizer=tf.keras.optimizers.SGD(learning_rate=learning_rate),
                       loss='mse')
         q_net.summary()
         return q_net
