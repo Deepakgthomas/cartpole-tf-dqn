@@ -8,7 +8,7 @@ from dqn_agent import DqnAgent
 from replay_buffer import DqnReplayBuffer
 from utils import compute_avg_reward, collect_episode
 from visualizer import get_training_visualizer
-
+import keras
 
 # pylint: disable=too-many-arguments,too-many-locals
 def train_model(
