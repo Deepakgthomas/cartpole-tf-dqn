@@ -4,6 +4,7 @@ DQN agent
 
 import numpy as np
 import tensorflow as tf
+from tensorflow import keras
 from tensorflow.python.keras import Sequential
 from tensorflow.python.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
